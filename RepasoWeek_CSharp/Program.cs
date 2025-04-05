@@ -49,7 +49,7 @@ namespace RepasoWeek_CSharp
                     Console.WriteLine("Ingresar largo: ");
                     double largo = Convert.ToDouble(Console.ReadLine());
 
-                    double resul2 = 3.1416 * (ancho * largo);
+                    double resul2 = (ancho * largo);
 
                     Console.WriteLine("El área de un rectanculo es es :" + resul2);
                     break;
