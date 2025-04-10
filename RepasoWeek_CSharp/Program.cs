@@ -1,6 +1,4 @@
-﻿using System.Timers;
-
-namespace RepasoWeek_CSharp
+﻿namespace RepasoWeek_CSharp
 {
     internal class Program
     {
@@ -19,10 +17,12 @@ namespace RepasoWeek_CSharp
             {
                 Console.WriteLine("El mayor número es el número: " + n1);
             }
-            else if (n2 > n1 && n2 > n3) { 
+            else if (n2 > n1 && n2 > n3)
+            {
                 Console.WriteLine("El mayor número es el número: " + n2);
-             }
-            else{
+            }
+            else
+            {
                 Console.WriteLine("El mayor número es el número: " + n3);
             }
 
@@ -34,12 +34,13 @@ namespace RepasoWeek_CSharp
             Console.WriteLine("Ingresar 1 para calcular el área de un circulo o 2 para calcular");
             int opc = Convert.ToInt16(Console.ReadLine());
 
-            switch (opc) {
+            switch (opc)
+            {
 
                 case 1:
                     Console.WriteLine("Ingresar el radio: ");
-                    double radio= Convert.ToDouble(Console.ReadLine());
-                    double resul = 3.1416* (radio*2);
+                    double radio = Convert.ToDouble(Console.ReadLine());
+                    double resul = 3.1416 * (radio * 2);
 
                     Console.WriteLine("El área de un circulo es :" + resul);
                     break;
